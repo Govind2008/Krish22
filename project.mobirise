@@ -30,13 +30,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#02434c",
         "#13066f",
         "#ddfafe",
         "#1eb5cb",
         "#f5dcdc",
         "#046f7e",
-        "#0dd22a",
-        "#f81d1d"
+        "#0dd22a"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -722,11 +722,11 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/background1-1-2000x860.jpg",
+                "image": "@PROJECT_PATH@/assets/images/background1-2-2000x860.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
-                "showTitle": true,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
@@ -744,7 +744,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/background2-2000x860.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -760,11 +760,12 @@
                 "contentAlign": "left",
                 "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.8"
+                "overlayOpacity": "0.8",
+                "overlayColor": "#02434c"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/background3-2000x860.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -775,7 +776,7 @@
                 "customStyle3": "display-4",
                 "alt": "",
                 "title": "",
-                "textTitle": "<b>Best quality</b><br><b>brings&nbsp;</b><b>confidence</b><br><b>in the Doctors</b>",
+                "textTitle": "<b>Best quality</b><br><b>medicines&nbsp;</b><b>Makes</b><br><b>us confident</b><br><br>",
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
